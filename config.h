@@ -93,8 +93,8 @@ void resetToDefaults() {
   }
   deviceConfig.inputs.debounceMs = 25;
   deviceConfig.station.active = true;
-  deviceConfig.station.ssid = "GSH9126";
-  deviceConfig.station.pass = "0148483886";
+  deviceConfig.station.ssid = "**************";
+  deviceConfig.station.pass = "**************";
   deviceConfig.station.dhcp = false;
   deviceConfig.station.ip = "192.168.18.222";
   deviceConfig.station.gw = "192.168.18.1";
@@ -111,7 +111,7 @@ void resetToDefaults() {
   deviceConfig.eth.alexaPort = 81;
 
   deviceConfig.ap.enabled = true;
-  deviceConfig.ap.ssid = "KC868_A16_PRO";
+  deviceConfig.ap.ssid = "AM_868_R16_PRO";
   deviceConfig.ap.pass = "admin";
   deviceConfig.ap.ip = "192.168.4.1";
   deviceConfig.ap.gw = "192.168.4.1";
@@ -157,8 +157,8 @@ void carregarConfiguracao() {
 
   // Atribui os campos lidos às variáveis da estrutura com valores de fallback seguros
   deviceConfig.station.active = doc["station"]["active"] | true;
-  deviceConfig.station.ssid = doc["station"]["ssid"] | "GSH9126";
-  deviceConfig.station.pass = doc["station"]["pass"] | "0148483886";
+  deviceConfig.station.ssid = doc["station"]["ssid"] | "***************";
+  deviceConfig.station.pass = doc["station"]["pass"] | "***************";
   deviceConfig.station.dhcp = doc["station"]["dhcp"] | false;
   deviceConfig.station.ip = doc["station"]["ip"] | "192.168.18.222";
   deviceConfig.station.gw = doc["station"]["gw"] | "192.168.18.1";

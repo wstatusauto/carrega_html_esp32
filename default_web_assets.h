@@ -84,7 +84,7 @@ static const char DEFAULT_INDEX_HTML[] PROGMEM = R"rawliteral(
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ESP32 CORE V2.4 - KinCony KC868-A16</title>
+  <title>ESP32 CORE V2.4 - AM-868-</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head>
